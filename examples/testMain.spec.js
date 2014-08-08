@@ -11,14 +11,17 @@ describe('Home', function () {
         
         browser().getExt(
 
-                function(ExtJS){
+                function(ext){
                     
+                	 // Add a listener for the real hide operation of the loading mask
+                	 // 'ext' is index.html 'Ext' object
                      ext.get('wegba-loading-mask').on('hide',function(){
                          
                          
+                         // Run test.
                          expect( { value: false } ).toBe( 
 
-                         	ExtJS.get('wegba-loading-mask').isVisible() 
+                         	ext.get('wegba-loading-mask').isVisible() 
 
                          );
                          
