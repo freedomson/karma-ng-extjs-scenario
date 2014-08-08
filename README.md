@@ -36,3 +36,6 @@ More info on what is a [Karma configuration file](http://karma-runner.github.io/
 ```javascript
 karma start karma.conf.js
 ```
+### 6 - Screenshot.
+
+![alt tag](https://raw.githubusercontent.com/freedomson/karma-ng-extjs-scenario/master/examples/karma-ng-extjs-scenario.png)
