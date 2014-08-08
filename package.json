@@ -1,7 +1,7 @@
 {
   "name": "karma-ng-extjs-scenario",
   "version": "0.1.0",
-  "description": "A Karma plugin. Adapter for Ext JS's Scenario Runner.",
+  "description": "A Karma plugin. Adapter for Ext JS Scenario Runner.",
   "main": "lib/index.js",
   "scripts": {
     "test": "grunt test"
@@ -11,7 +11,7 @@
     "url": "git@github.com:freedomson/karma-ng-extjs-scenario.git"
   },
   "keywords": [
-    "EXTJS"
+    "EXTJS",
     "karma-plugin",
     "karma-adapter",
     "angular",
@@ -19,8 +19,8 @@
     "scenario-runner"
   ],
   "author": {
-    "name": "Freedomson",
-    "email": "xntp006@gmail.com"
+    "name": "freedomson",
+    "email": "philip.almeida@freedomson.com"
   },
   "dependencies": {},
   "devDependencies": {
